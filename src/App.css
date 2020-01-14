@@ -1,38 +1,81 @@
 .App {
+  height: 100vh;
   text-align: center;
+  background-color: azure;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.task_container {
+  text-align: left;
+  margin: 2vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.task_header {
+  font-size: x-large;
+  background-color: cornflowerblue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.task_header_create {
+  font-size: x-large;
+  background-color: darkorange;
 }
 
-.App-link {
-  color: #61dafb;
+.task_create_form_container {
+  padding: 1%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.task_create_container_title {
+  font-size: x-large;
+}
+
+.task_create_label_title {
+  font-size: x-large;
+}
+
+.task_create_input_title {
+  font-size: medium;
+  width: 70%;
+}
+
+.task_create_container_text {
+  font-size: x-large;
+}
+
+.task_create_label_text {
+  font-size: x-large;
+}
+
+.task_create_textarea_text {
+  font-size: medium;
+  width: 70%;
+}
+
+.task_create_container_submit {
+  margin-top: 2%;
+}
+
+.no_tasks_text {
+  font-size: xx-large;
+}
+
+.contact_container {
+  text-align: left;
+  margin: 2vh;
+}
+
+.contact_text_container {
+  font-size: large;
+}
+
+.contact_header_container {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.about_text_container {
+  font-size: large;
+}
+
+.about_header_container {
+  text-align: center;
+  font-size: xx-large;
 }
